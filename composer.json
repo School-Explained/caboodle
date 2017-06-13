@@ -1,0 +1,31 @@
+{
+    "name": "caboodle",
+    "description": "The School Explained Collection package.",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/School-Explained/caboodle/issues",
+        "source": "https://github.com/School-Explained/caboodle"
+    },
+    "authors": [
+        {
+            "name": "David Floegel",
+            "email": "davidf@learningladders.info"
+        },
+        {
+            "name": "Christophe Graniczny",
+            "email": "christopheg@learningladders.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-2": {
+            "Caboodle\\": ""
+        }
+    },
+    "suggest": {
+        "symfony/var-dumper": "Required to use the dd function (2.6.*)."
+    },
+    "minimum-stability": "dev"
+}

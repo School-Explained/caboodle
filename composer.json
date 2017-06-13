@@ -1,31 +1,18 @@
 {
-    "name": "caboodle",
-    "description": "The School Explained Collection package.",
-    "license": "MIT",
-    "support": {
-        "issues": "https://github.com/School-Explained/caboodle/issues",
-        "source": "https://github.com/School-Explained/caboodle"
-    },
-    "authors": [
-        {
-            "name": "David Floegel",
-            "email": "davidf@learningladders.info"
-        },
-        {
-            "name": "Christophe Graniczny",
-            "email": "christopheg@learningladders.info"
-        }
-    ],
+    "name": "schoolexplained/caboodle",
+    "description": "An amazing PHP Collection inspired by laravel collection and lodash",
+    "type": "library",
+    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.6.0"
     },
     "autoload": {
-        "psr-2": {
-            "Caboodle\\": ""
+        "psr-4": {
+            "SchoolExplained\\": "src\\"
         }
     },
-    "suggest": {
-        "symfony/var-dumper": "Required to use the dd function (2.6.*)."
-    },
-    "minimum-stability": "dev"
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "squizlabs/php_codesniffer": "^3.0"
+    }
 }

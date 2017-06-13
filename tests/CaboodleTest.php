@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace SchoolExplained;
 
 use PHPUnit\Framework\TestCase;
 use SchoolExplained\Caboodle;
@@ -20,4 +20,3 @@ class CaboodleTest extends TestCase
         $this->assertEquals(0, count($stack));
     }
 }
-?>

@@ -8,5 +8,5 @@ dependencies:
 
 test:
   override:
-    - ./vendor/bin/phpcs src tests
+    - ./vendor/bin/phpcs --standard=PSR2 src tests
     - ./vendor/phpunit/phpunit/phpunit tests/
